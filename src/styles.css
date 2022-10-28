@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+ @import "~../node_modules/bootstrap/dist/css/bootstrap.min.css";
+ @import '../node_modules/alertifyjs//build/css/alertify.min.css';
+ @import '../node_modules/alertifyjs//build/css/themes/bootstrap.min.css';
+ @import '../node_modules/alertifyjs//build/css/themes/default.min.css';
+
+ h3{
+    color: white;
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    vertical-align: bottom;
+    background-color:rgb(184, 155, 229);
+    height: 40px;
+    padding-top: 5px;
+    width: 100%;
+}
+.columnPan {
+    height:80vh; 
+    border-color: lightslategray; 
+    border-style: solid;   
+}
+
+p{
+    color: black;
+}
+
+h5{
+    color: white;
+    size: 18px;
+}
+.himg
+{
+    max-width: 100%;
+    height: auto;
+    
+}
+.home1
+{
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.form-control.ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+.invalid-feedback
+{
+    color: red;
+}
+.ng-valid {
+    border: 1px solid green; 
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,53 @@
+
+<div style="text-align:center;"><p>contact Page</p>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6"  style="margin-top: 55px;">
+    
+    
+            <p> Name: {{ name| lowercase }}</p>
+            
+            <br>
+            <p>Department: {{ department| uppercase }}</p>
+        
+            <br>
+            <p>Phone: {{ phone }}</p>
+        
+            <br>
+            <p>Email: {{ email }}</p>
+        
+           
+        </div>
+        
+
+        <div class="col-sm-6" style="margin-top: 55px;">
+            <input type="text"  class="form-control" [(ngModel)]= "name" />
+            <br>
+            <input type="text"  class="form-control" [(ngModel)]= "department" />
+            <br>
+            <input type="text"  class="form-control" [(ngModel)]= "phone" />
+            <br>
+            <input type="text"  class="form-control" [(ngModel)]= "email" />
+            <br>
+           
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+<!-- <div>
+    <button class="btn btn-success" [disabled]="btnclick" (click)="ontogle()" >Click here</button>
+</div> -->
+
+<div>
+    <h4>Custom Routing Sample</h4>
+
+    <h4 appCustomdirective>This is Contact page</h4>
+    
+</div>

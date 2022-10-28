@@ -1,0 +1,54 @@
+
+<div class="container">
+    <div class="row">
+    <div class="col-sm-4">
+        <div class="card" style="width: 23rem;background-color:rgb(237 242 245); ">
+            <img src="assets/img/product.jpg" class="card-img-top" style="border-style:groove;" >
+            <div class="card-body">
+              <h4 class="card-title bg-light" style="color: black !important;">Product1</h4>
+              <div  class="text-primary" ><h4>{{price | currency}}</h4></div>
+              <p class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row">
+                <div class="col-sm-6">
+              <button class="btn btn-success" (click)="onbuy()" >Purchase</button>
+            </div>
+            <div class="col-sm-6">
+        
+
+        
+<!-- Large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" (click)="gotoaddcart()">Add Cart</button>
+
+
+
+
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 23rem;background-color:rgb(237 242 245); ">
+                <img src="assets/img/product.jpg" class="card-img-top" style="border-style:groove;" >
+                <div class="card-body">
+                  <h4 class="card-title" style="color: black !important;">Product2</h4>
+                  <div  class="text-primary" ><h4>{{price | currency}}</h4></div>
+                  <p class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="btn btn-success" (click)="onbuys()" >Purchase</button>
+                </div>
+                </div>
+              </div>
+        <div class="col-sm-4">
+            <div class="card" style="width: 23rem;background-color:rgb(237 242 245); ">
+                <img src="assets/img/product.jpg" class="card-img-top" style="border-style:groove;" >
+                <div class="card-body">
+                  <h4 class="card-title" style="color: black !important;">Product3</h4>
+                  <div  class="text-primary" ><h4>{{price | currency}}</h4></div>
+                  <p class="card-text" >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="btn btn-success" (click)="onbuyss()" >Purchase</button>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+

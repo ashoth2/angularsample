@@ -1,0 +1,7 @@
+.mat-form-field{
+    width: 100%;
+}
+.ng-valid {
+    border: none; 
+    border: rgb(22, 24, 22);
+}

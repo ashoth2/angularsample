@@ -1,0 +1,23 @@
+<div class="navbar navbar-inverse" style="text-align:center;"><h5>Information</h5></div>
+
+<div>
+    <input type="text"  class="form-control" [(ngModel)]= "studentname" />
+    <br>
+</div>
+
+<div>
+    <p>Student Id: {{ studentID }}</p>
+    <br>
+    
+    <p>Student Name: {{ studentname }}</p>
+    
+    <br>
+    <p>Department: {{ department }}</p>
+
+    <br>
+    <p>Status:{{ status }}</p>
+</div>
+
+<div>
+    <button class="btn btn-success" [disabled]="btnclick" (click)="ontogle()" >Click here</button>
+</div>

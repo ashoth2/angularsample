@@ -1,0 +1,32 @@
+<form class="example-form" [formGroup]="productform" (ngSubmit)="Saveproduct()">
+    <!-- <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>ID</mat-label>
+        <input matInput placeholder="ID" formControlName="id">
+      </mat-form-field> -->
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Product Name</mat-label>
+        <input matInput placeholder="ProductName" formControlName="productname">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Price</mat-label>
+        <input matInput placeholder="Price" formControlName="price">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Quantity</mat-label>
+        <input matInput placeholder="Quantity" formControlName="quantity">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Remarks</mat-label>
+        <input matInput placeholder="Remarks" formControlName="remarks">
+      </mat-form-field>
+
+      <div class="example-button-row">
+        <button mat-raised-button color="primary">Save</button> | <a (click)="closepopup()" mat-raised-button color="accent">Close</a>
+
+      </div>
+
+</form>
